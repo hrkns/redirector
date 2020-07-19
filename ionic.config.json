@@ -1,0 +1,7 @@
+{
+  "name": "redirector",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
