@@ -11,20 +11,7 @@ export class HomePage {
 
   constructor() {
 
-    console.log('123', 123);
-
     Browser
-      .open({ url: 'http://google.com/' })
-      .then(a => {
-
-        console.log('a', a);
-      })
-      .catch(b => {
-
-        console.log('b', b);
-      });
-  }
-
-  ngOnInit() {
+      .open({ url: 'https://sites.google.com/pwc.com/us-mx-pclde/home' });
   }
 }
